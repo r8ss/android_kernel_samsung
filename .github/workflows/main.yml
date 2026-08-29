@@ -34,7 +34,7 @@ jobs:
       run: echo "${{ github.workspace }}/toolchain/clang/host/linux-x86/bin" >> $GITHUB_PATH
 
     - name: ksu
-      run: curl -LSs "https://raw.githubusercontent.com/doubledashdot/sKernelSU/master/kernel/setup.sh" | bash -s master
+      run: curl -LSs "https://raw.githubusercontent.com/Poko-Apps/MemKernel/main/kernel/setup.sh" | bash -s M freea
 
     - name: AnyKernel3
       run: git clone https://github.com/osm0sis/AnyKernel3.git
