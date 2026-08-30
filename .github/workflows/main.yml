@@ -9,7 +9,7 @@ jobs:
 
     runs-on: ubuntu-24.04
     env:
-      TOOLCHAIN_URI: "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r522817.tar.gz"
+      TOOLCHAIN_URI: "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/mirror-goog-main-llvm-toolchain-source/clang-r596125.tar.gz"
       ARCH: arm64
       LLVM: 1
       LLVM_IAS: 1
